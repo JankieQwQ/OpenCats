@@ -13,4 +13,4 @@ def canOpen(filename:str,isOK:bool) -> None:
 filelist = ['./src/init.py','./src/server.py','./src/web/index.html','./check.py','./run.bat','./other/ChatGPT_DAN.tex','./other/latexboom.tex','./other/markdownoom.md','./other/usbot.py']
 
 for name in filelist:
-    canOpen(openTest(name))
+    canOpen(name,openTest(name))
