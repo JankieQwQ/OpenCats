@@ -23,4 +23,4 @@ def index():
 @app.route('/opencat')
 def start():
     _thread.start_new_thread(commandLine, ())
-
+    return {"code":200,"version":"OpenCats V2"}
