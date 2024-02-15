@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <title>控制面板</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">OpenCats</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">设置</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">帮助</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            仪表盘
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            状态监控
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            链接 OpenCat
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <h2>OpenCats V2</h2>
+                    <p>快速记事:</p><br />
+                    <textarea>Note here.</textarea>
+                    <br />
+                    <p>设备负载:</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
